@@ -49,7 +49,7 @@ export default function SpringBreakCamp2025() {
                   </div>
                   <div className="flex items-center">
                     <MapPin className="h-5 w-5 text-[#8ED204] mr-3" />
-                    <span>Christ Lutheran Church, 189 Burr Road, East Northport NY</span>
+                    <span>Burr Wrinkle Park, Harvest Ln, Commack NY 11725</span>
                   </div>
                 </div>
 
