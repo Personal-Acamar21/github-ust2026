@@ -10,8 +10,7 @@ const tryoutInfo = {
   dates: [
     { date: "Season 2025/2026", time: "Please see the attached flyer" }
   ],
-  location: "William T. Rodger Middle School 
-            97 Old Dock Road, KingsPark NY 11754",
+  location: "William T. Rodger Middle School, 97 Old Dock Road, KingsPark NY 11754",
   requirements: [
     "Soccer cleats",
     "Shin guards",
