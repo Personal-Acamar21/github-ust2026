@@ -10,7 +10,8 @@ const tryoutInfo = {
   dates: [
     { date: "Season 2025/2026", time: "Please see the attached flyer" }
   ],
-  location: "TBD, NY",
+  location: "William T. Rodger Middle School 
+97 Old Dock Rd, Kings Park NY, 11754",
   requirements: [
     "Soccer cleats",
     "Shin guards",
