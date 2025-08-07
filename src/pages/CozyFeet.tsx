@@ -120,8 +120,10 @@ export default function CozyFeet() {
             <div>
               <h3 className="font-semibold text-[#8ED204]">Fall 2025 Session</h3>
               <p>Semptember 11 - November 6</p>
-              <p>Training Days: Thursdays: 9/11, 9/18, 9/25, 10/2, 10/16, 10/23, 10/30, 11/6  Time: 5PM - 6PM</p>
-              <p>Game Day: Saturdays: 9/13, 9/27, 10/4, 10/18, 10/25, 11/1, 11/8, 11/15  Time: 10AM - 11AM</p>
+              <p>Training Days: Thursdays: 9/11, 9/18, 9/25, 10/2, 10/16, 10/23, 10/30, 11/6</p>
+              <p>Training Time: 5PM - 6PM</p>
+              <p>Game Day: Saturdays: 9/13, 9/27, 10/4, 10/18, 10/25, 11/1, 11/8, 11/15</p>
+              <p>Game Time: 5PM - 6PM</p>
             </div>
             <div>
               <h3 className="font-semibold text-[#8ED204]">Location</h3>
