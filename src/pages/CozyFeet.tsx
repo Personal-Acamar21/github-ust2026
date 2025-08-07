@@ -51,7 +51,7 @@ export default function CozyFeet() {
             <h3 className="text-lg font-medium text-gray-900">Current Program: UST FC Spring Intramural Program</h3>
             <div className="mt-2 text-gray-700">
               <p>Registration is now open for our Spring Intramural Program for boys and girls born 2021-2016.</p>
-              <p className="mt-1">Sessions run September 9 - November 15 at Christ Lutheran Church.</p>
+              <p className="mt-1">Sessions run April 11 - May 30 at Christ Lutheran Church.</p>
               <Link 
                 to="/programs/spring-intramural-program" 
                 className="mt-3 inline-block text-[#8ED204] hover:text-[#8ED204]/80 font-semibold"
@@ -118,13 +118,10 @@ export default function CozyFeet() {
           <h2 className="text-2xl font-bold mb-4">Training Schedule</h2>
           <div className="space-y-4">
             <div>
-              <h3 className="font-semibold text-[#8ED204]">Fall 2025 Session</h3>
-              <p>Training Days: September 9 - November 6 </p>
-              <p>Thursdays: 9/11, 9/18, 9/25, 10/2, 10/16, 10/23, 10/30, 11/6 </p>
-              <p>Ages 2021-2019: TIME: 5:00-6:00PM</p>
-              <p>Game Day: September 9 - November 6 </p>
-              <p>Saturdays: 9/13, 9/27, 10/4, 10/18, 10/25, 11/1, 11/8, 11/15 </p>
-              <p>Ages <p>Ages 2021-2019: TIME: 10AM-11AM</p>
+              <h3 className="font-semibold text-[#8ED204]">Spring 2025 Session</h3>
+              <p>April 11 - May 30</p>
+              <p>Ages 2021-2019: 5:00-5:45PM</p>
+              <p>Ages 2018-2016: 5:00-6:00PM</p>
             </div>
             <div>
               <h3 className="font-semibold text-[#8ED204]">Location</h3>
