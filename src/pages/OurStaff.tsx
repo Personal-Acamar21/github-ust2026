@@ -21,44 +21,44 @@ export default function OurStaff() {
       experience: "4+ years"
     },
     {
-      name: "Joshua Allen",
-      role: "Coach",
+      name: "Frankie Guzman",
+      role: "Staff Coach",
       credentials: "United Soccer Coach License",
       experience: "4+ years"
     },
     {
       name: "Jason Alvarez",
-      role: "Coach",
+      role: "Staff Coach",
       credentials: "United Soccer Coach License",
       experience: "4+ years"
     },
     {
       name: "Chris Leidner",
-      role: "Coach",
+      role: "Staff Coach",
       credentials: "United Soccer Coach License",
       experience: "4+ years"
     },
     {
       name: "Jorge Rodriguez",
-      role: "Coach",
+      role: "Staff Coach",
       credentials: "United Soccer Coach License",
       experience: "4+ years"
     },
     {
       name: "Kristina Gambino",
-      role: "Coach",
+      role: "Staff Coach",
       credentials: "United Soccer Coach License",
       experience: "4+ years"
     },
     {
       name: "Joe Ogoo",
-      role: "Coach",
+      role: "Staff Coach",
       credentials: "United Soccer Coach License",
       experience: "4+ years"
     },
     {
-      name: "Phil Iacono",
-      role: "Goalkeeper Coach",
+      name: "Jesse Bradley",
+      role: "Staff Coach",
       credentials: "United Soccer Coach License",
       experience: "4+ years"
     }
