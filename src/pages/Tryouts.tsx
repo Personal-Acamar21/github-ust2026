@@ -8,9 +8,9 @@ const registrationUrl = "https://ustsoccer.demosphere-secure.com/_registration_l
 
 const tryoutInfo = {
   dates: [
-    { date: "Season 2025/2026", time: "Please see the attached flyer" }
+    { date: "Season 2026/2027", time: "TBD" }
   ],
-  location: "William T. Rodger Middle School, 97 Old Dock Road, KingsPark NY 11754",
+  location: "TBD",
   requirements: [
     "Soccer cleats",
     "Shin guards",
@@ -86,7 +86,7 @@ export default function Tryouts() {
                 className="block relative aspect-[3/4] w-full mb-6"
               >
                 <img
-                  src="https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/67eaaf232c105a1a9b5461e7.jpeg"
+                  src="TBD"
                   alt="UST Soccer Academy Tryouts"
                   className="w-full h-full object-contain bg-gray-100 rounded-lg hover:opacity-90 transition-opacity"
                 />
