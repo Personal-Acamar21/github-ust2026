@@ -5,12 +5,12 @@ import { Calendar, MapPin, Clock, Users, DollarSign, ArrowLeft, Mail, Phone } fr
 import { Link } from 'react-router-dom';
 import Button from '../../components/Button';
 
-export default function SpringIntramuralProgram() {
+export default function FallIntramuralProgram() {
   return (
     <>
       <Helmet>
-        <title>UST FC Spring Intramural Program - UST Soccer Academy</title>
-        <meta name="description" content="Join our Spring Intramural Program for boys and girls born 2021-2016" />
+        <title>UST FC Fall Intramural Program - UST Soccer Academy</title>
+        <meta name="description" content="Join our Fall Intramural Program for boys and girls born 2021-2016" />
       </Helmet>
 
       <div className="container mx-auto px-4 py-16">
@@ -38,25 +38,25 @@ export default function SpringIntramuralProgram() {
             className="bg-white rounded-lg shadow-lg overflow-hidden"
           >
             <img
-              src="https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/67bfa5a6981fdc5e14a6ec7a.png"
-              alt="UST FC Spring Intramural Program"
+              src="https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/6894823febb67c02968da335.png"
+              alt="UST FC Fall Intramural Program"
               className="w-full h-auto"
             />
 
             <div className="p-8">
-              <h1 className="text-3xl font-bold mb-6">UST FC Spring Intramural Program</h1>
+              <h1 className="text-3xl font-bold mb-6">UST FC Fall Intramural Program</h1>
 
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Calendar className="h-5 w-5 text-[#8ED204] mr-3" />
-                    <span>April 11 - May 30</span>
+                    <span>September 11 - November 6</span>
                   </div>
                   <div className="flex items-center">
                     <Clock className="h-5 w-5 text-[#8ED204] mr-3" />
                     <div>
-                      <p>2021-2019: 5:00-5:45PM</p>
-                      <p>2018-2016: 5:00-6:00PM</p>
+                      <p>Training: Thursdays 5:00-6:00PM</p>
+                      <p>Games: Saturdays 5:00-6:00PM</p>
                     </div>
                   </div>
                   <div className="flex items-center">
@@ -78,12 +78,36 @@ export default function SpringIntramuralProgram() {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg mb-8">
+                <h2 className="text-xl font-bold mb-4">Training & Game Schedule</h2>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h3 className="font-semibold text-[#8ED204] mb-2">Training Days (Thursdays)</h3>
+                    <p className="text-sm mb-2">5:00PM - 6:00PM</p>
+                    <div className="flex flex-wrap gap-2">
+                      {['9/11', '9/18', '9/25', '10/2', '10/16', '10/23', '10/30', '11/6'].map((date) => (
+                        <span key={date} className="bg-white px-2 py-1 rounded text-sm">{date}</span>
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-[#8ED204] mb-2">Game Days (Saturdays)</h3>
+                    <p className="text-sm mb-2">10:00AM - 11:00AM</p>
+                    <div className="flex flex-wrap gap-2">
+                      {['9/13', '9/27', '10/4', '10/18', '10/25', '11/1', '11/8', '11/15'].map((date) => (
+                        <span key={date} className="bg-white px-2 py-1 rounded text-sm">{date}</span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-lg mb-8">
                 <h2 className="text-xl font-bold mb-4">About This Program</h2>
                 <p className="text-gray-700 mb-4">
-                  The UST FC Spring Intramural Program is part of our Cozy Feet initiative, designed specifically for our youngest players. This program provides a fun and engaging introduction to soccer fundamentals in a supportive environment.
+                  The UST FC Fall Intramural Program is part of our Cozy Feet initiative, designed specifically for our youngest players. This program provides a fun and engaging introduction to soccer fundamentals in a supportive environment.
                 </p>
                 <p className="text-gray-700">
-                  Players will develop basic motor skills, coordination, and teamwork through age-appropriate activities and games led by our experienced coaching staff.
+                  Players will develop basic motor skills, coordination, and teamwork through age-appropriate activities, training sessions, and games led by our experienced coaching staff.
                 </p>
                 <div className="mt-4">
                   <Link 
@@ -99,10 +123,12 @@ export default function SpringIntramuralProgram() {
                 <h2 className="text-xl font-bold mb-2">Program Features</h2>
                 <ul className="space-y-2">
                   {[
-                    "Age-appropriate training",
+                    "Age-appropriate training sessions",
                     "Fun learning environment",
                     "Basic skill development",
-                    "Introduction to soccer fundamentals"
+                    "Introduction to soccer fundamentals",
+                    "Weekly games for practical experience",
+                    "Training shirt included"
                   ].map((feature, index) => (
                     <li key={index} className="flex items-center">
                       <div className="w-2 h-2 bg-[#8ED204] rounded-full mr-2"></div>
