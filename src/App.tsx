@@ -46,7 +46,7 @@ const ResidentialCamp = React.lazy(() => import('./pages/camps/ResidentialCamp20
 const IntenseSummerCamp = React.lazy(() => import('./pages/camps/IntenseSummer2025'));
 
 // Program Pages
-const SpringIntramuralProgram = React.lazy(() => import('./pages/programs/SpringIntramuralProgram'));
+const FallIntramuralProgram = React.lazy(() => import('./pages/programs/FallIntramuralProgram'));
 
 export default function App() {
   return (
@@ -94,7 +94,7 @@ export default function App() {
             <Route path="/camps/intense-summer-2025" element={<IntenseSummerCamp />} />
             
             {/* Program Routes */}
-            <Route path="/programs/spring-intramural-program" element={<SpringIntramuralProgram />} />
+            <Route path="/programs/fall-intramural-program" element={<FallIntramuralProgram />} />
           </Routes>
         </Suspense>
       </main>
@@ -103,4 +103,3 @@ export default function App() {
     </div>
   );
 }
-
