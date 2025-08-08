@@ -30,8 +30,8 @@ const camps = [
   },
   {
     id: 'spring-intramural-program',
-    title: 'UST FC Spring Intramural Program',
-    thumbnail: 'https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/67bfaae22d53351ccc95bca8.png',
+    title: 'UST FC Fall Intramural Program',
+    thumbnail: 'https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/68951c9f3ee12958e9cc739d.png',
     type: 'Intramural Program',
     status: 'upcoming',
     path: '/programs/spring-intramural-program'
