@@ -39,7 +39,7 @@ const events = [
     id: 'fall-intramural-program',
     title: 'UST FC Fall Intramural Program',
     image: 'https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/6894823febb67c02968da335.png',
-    path: '/programs/fall-intramural-program'
+    path: '/programs/spring-intramural-program'
   }
 ];
 
