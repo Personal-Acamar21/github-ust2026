@@ -53,7 +53,7 @@ export default function CozyFeet() {
               <p>Registration is now open for our Fall Intramural Program for boys and girls born 2021-2016.</p>
               <p className="mt-1">Sessions run September 11 - November 6 at Christ Lutheran Church.</p>
               <Link 
-                to="/programs/spring-intramural-program" 
+                to="/programs/fall-intramural-program"  
                 className="mt-3 inline-block text-[#8ED204] hover:text-[#8ED204]/80 font-semibold"
               >
                 View Program Details →
@@ -100,7 +100,7 @@ export default function CozyFeet() {
             </ul>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
-                to="/programs/spring-intramural-program"
+                to="/programs/fall-intramural-program" 
                 className="bg-[#8ED204] text-black px-8 py-3 rounded-lg font-semibold hover:bg-[#8ED204]/90 transition duration-300"
               >
                 Fall Intramural Program
@@ -123,7 +123,7 @@ export default function CozyFeet() {
               <p>Training Days: Thursdays: 9/11, 9/18, 9/25, 10/2, 10/16, 10/23, 10/30, 11/6</p>
               <p>Training Time: 5PM - 6PM</p>
               <p>Game Day: Saturdays: 9/13, 9/27, 10/4, 10/18, 10/25, 11/1, 11/8, 11/15</p>
-              <p>Game Time: 5PM - 6PM</p>
+              <p>Game Time: 10AM - 11AM</p>
             </div>
             <div>
               <h3 className="font-semibold text-[#8ED204]">Location</h3>
