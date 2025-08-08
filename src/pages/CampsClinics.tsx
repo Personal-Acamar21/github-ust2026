@@ -35,7 +35,15 @@ const camps = [
     type: 'Intramural Program',
     status: 'upcoming',
     path: '/programs/spring-intramural-program'
-  }
+  },
+   {
+    id: 'fall-intramural-program',
+    title: 'UST FC Fall Intramural Program',
+    thumbnail: 'https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/68951c9f3ee12958e9cc739d.png',
+    type: 'Intramural Program',
+    status: 'upcoming',
+    path: '/programs/fall-intramural-program'
+  } 
 ];
 
 export default function CampsClinics() {
