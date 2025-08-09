@@ -86,7 +86,7 @@ export default function Tryouts() {
                 className="block relative aspect-[3/4] w-full mb-6"
               >
                 <img
-                  src="https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/68975be0b46e4a49861c4258.png"
+                  src="https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/68976b61d95f1bfae9f38c65.png"
                   alt="UST Soccer Academy Tryouts"
                   className="w-full h-full object-contain bg-gray-100 rounded-lg hover:opacity-90 transition-opacity"
                 />
